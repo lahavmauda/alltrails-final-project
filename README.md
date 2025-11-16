@@ -129,7 +129,6 @@ Open a new bug: **Issues → New issue → Bug report**.
 - Automation learning path is separate and uses Python and Playwright.
 
 ---
----
 
 ## 📸 Test Evidence
 
@@ -138,17 +137,18 @@ showing both **successful flows** and **identified defects** during testing.
 
 | Screenshot | Description | Result |
 |-------------|--------------|---------|
-| ![Front page](./screenshots/Front%20page%20image.png) | Home page displayed correctly | ✅ Pass |
-| | ![Invalid Name Field](./screenshots/invalid_name_field.png) | No error message for invalid characters in First and Last Name fields | ❌ Bug |
+| ![Front page](./screenshots/front_page_image.png) | Home page displayed correctly | ✅ Pass |
+| ![Invalid Name Field](./screenshots/invalid_name_field.png) | No error message for invalid characters in First and Last Name fields | ❌ Bug |
 | ![Incorrect Result Italian](./screenshots/incorrect_result_italian.png) | Incorrect result when searching in Italian | ⚠️ Defect |
-| ![No results](./screenshots/No%20results%20when%20selecting%20Camping%20and%20Skiing.png) | Missing results when selecting “Camping and Skiing” | ❌ Bug |
-| ![Offline](./screenshots/No%20results%20without%20internet.png) | App behavior while offline | ⚠️ Needs improvement |
-| ![Social](./screenshots/No%20Sharing%20on%20Social%20Media.png) | No sharing option for social media | 💡 UX Suggestion |
+| ![No results Camping](./screenshots/no_results_camping_skiing.png) | Missing results when selecting “Camping and Skiing” | ❌ Bug |
+| ![Offline](./screenshots/no_results_without_internet.png) | App behavior while offline | ⚠️ Needs improvement |
+| ![Social](./screenshots/no_sharing_social_media.png) | No sharing option for social media | 💡 UX Suggestion |
 
 ---
 
 > All screenshots were taken during **manual regression and exploratory testing** phases.  
 > Evidence supports issues documented in the STR report.
+
 ---
 ## 🏁 Footer
 Built by **Lahav Mauda** - Manual QA transitioning to Automation  
