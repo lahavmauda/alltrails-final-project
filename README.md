@@ -1,4 +1,6 @@
 # AllTrails QA Final Project - Manual Testing
+**Quick links:**  
+[STP](./docs/STP.md) · [STD](./docs/STD.md) · [STR](./docs/STR.md) · [Screenshots](./screenshots/) · [Live project](https://lahavmauda.github.io/alltrails-final-project/)
 
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 ![Process](https://img.shields.io/badge/QA%20Process-Ready-blue?style=flat-square)
