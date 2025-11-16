@@ -44,5 +44,5 @@ The goal was to validate user flows and ensure that the site works smoothly acro
 
 ---
 **License:** [MIT License](./LICENSE) © 2025 Lahav Mauda  
-**Author:** Lahav Mauda | [GitHub Profile](https://github.com/lahavmauda)
-
+**Author:** Lahav Mauda | [GitHub Profile](https://github.com/lahavmauda)  
+**Note:** This project demonstrates manual QA documentation, real test planning, and defect reporting in a structured and professional format.
