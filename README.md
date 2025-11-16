@@ -139,8 +139,8 @@ showing both **successful flows** and **identified defects** during testing.
 | Screenshot | Description | Result |
 |-------------|--------------|---------|
 | ![Front page](./screenshots/Front%20page%20image.png) | Home page displayed correctly | ✅ Pass |
-| ![Invalid name](./screenshots/There%20is%20no%20error%20message%20for%20invalid%20characters%20in%20the%20First%20Name%20and%20Last%20Name%20fields.png) | No error message for invalid characters | ❌ Bug |
-| ![Incorrect result IT](./screenshots/Incorrect%20result%20when%20typing%20Jerusalem%20in%20Italian.png) | Incorrect result when searching in Italian | ⚠️ Defect |
+| | ![Invalid Name Field](./screenshots/invalid_name_field.png) | No error message for invalid characters in First and Last Name fields | ❌ Bug |
+| ![Incorrect Result Italian](./screenshots/incorrect_result_italian.png) | Incorrect result when searching in Italian | ⚠️ Defect |
 | ![No results](./screenshots/No%20results%20when%20selecting%20Camping%20and%20Skiing.png) | Missing results when selecting “Camping and Skiing” | ❌ Bug |
 | ![Offline](./screenshots/No%20results%20without%20internet.png) | App behavior while offline | ⚠️ Needs improvement |
 | ![Social](./screenshots/No%20Sharing%20on%20Social%20Media.png) | No sharing option for social media | 💡 UX Suggestion |
