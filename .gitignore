@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment / config (if added later)
+.env
+
+# Python / Automation files (future use)
+__pycache__/
+*.pyc
