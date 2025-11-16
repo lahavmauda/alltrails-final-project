@@ -41,3 +41,8 @@ The goal was to validate user flows and ensure that the site works smoothly acro
 
 ## 🌐 Live Project
 [View AllTrails Project](https://lahavmauda.github.io/alltrails-final-project/)
+
+---
+**License:** [MIT License](./LICENSE) © 2025 Lahav Mauda  
+**Author:** Lahav Mauda | [GitHub Profile](https://github.com/lahavmauda)
+
