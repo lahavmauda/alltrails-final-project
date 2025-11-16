@@ -1,48 +1,103 @@
-# AllTrails QA Final Project – Manual Testing
-![QA](https://img.shields.io/badge/QA-Manual-blue)
-![Testing](https://img.shields.io/badge/Testing-Web-green)
-![Docs](https://img.shields.io/badge/Documents-STP%2FSTD%2FSTR-orange)
-![Python](https://img.shields.io/badge/Learning-Python-yellow)
-![Playwright](https://img.shields.io/badge/Learning-Playwright-lightgrey)
+# AllTrails QA Final Project - Manual Testing
 
-## 🧠 Overview
-This project demonstrates my practical approach to manual QA testing on a live web application.  
-It covers test planning, test case design, execution, bug reporting, and final summary documentation.  
-The goal was to validate user flows and ensure that the site works smoothly across different browsers.
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+![Process](https://img.shields.io/badge/QA%20Process-Ready-blue?style=flat-square)
+![Manual](https://img.shields.io/badge/Manual-Verified-green?style=flat-square)
+![Cross Browser](https://img.shields.io/badge/Cross%20Browser-Checked-lightgrey?style=flat-square)
+![Docs](https://img.shields.io/badge/Docs-STP%20|%20STD%20|%20STR-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-black?style=flat-square)
+![Pages](https://img.shields.io/badge/Live-GitHub%20Pages-brightgreen?style=flat-square)
 
-## 🎯 Objectives
-- Plan and structure test coverage for key AllTrails features  
-- Write detailed and reproducible test cases (STD)  
-- Execute sanity and regression testing  
-- Report defects with clear expected vs actual results and screenshots  
-- Deliver a final STR report summarizing findings and recommendations
+## 🌟 Overview
+Hands-on manual QA project for a live web app.  
+Focus on test planning, test case design, sanity and regression runs, clear defect reporting, and final summary.
 
-## 🧰 Tools and Methods
-- Documentation: Google Sheets (STP, STD, STR)  
-- Version control: GitHub  
-- Testing platforms: Web (desktop + mobile views)  
-- Communication mindset: clear, factual, and user-focused
-
-## 📂 Project Structure
-
-
-
-## 🧾 Example Test Case
-| ID | Step | Expected Result | Status |
-|----|------|-----------------|--------|
-| TC01 | Navigate to login page | Page loads successfully | ✅ |
-| TC02 | Enter valid credentials | Redirect to user dashboard | ✅ |
-| TC03 | Enter invalid password | Error message displayed | 🟡 |
-
-## 💡 Lessons Learned
-- Always verify the flow end-to-end, not just single actions  
-- Detailed documentation saves time for everyone on the team  
-- QA adds value when it helps the product team see things from a user’s view  
-
-## 🌐 Live Project
-[View AllTrails Project](https://lahavmauda.github.io/alltrails-final-project/)
+**Live demo:** https://lahavmauda.github.io/alltrails-final-project/
 
 ---
-**License:** [MIT License](./LICENSE) © 2025 Lahav Mauda  
-**Author:** Lahav Mauda | [GitHub Profile](https://github.com/lahavmauda)  
-**Note:** This project demonstrates manual QA documentation, real test planning, and defect reporting in a structured and professional format.
+
+## 🧭 Scope and Goals
+- Validate core user flows and critical paths
+- Cover sanity and selected regression areas
+- Document tests so anyone can reproduce results
+- Report defects with evidence and clear expected vs actual
+
+---
+
+## 🗂 Project Structure
+- `index.html` - project landing and samples
+- `README.md` - project description and quick navigation
+- `AllTrails QA Final Project – Manual Testing.pdf` - full STR export (encoded link below)
+
+> Full STR PDF:  
+> [Open report](AllTrails%20QA%20Final%20Project%20%E2%80%93%20Manual%20Testing.pdf)
+
+---
+
+## 📝 STP - Test Plan (high level)
+- **Risks and assumptions:** cross browser differences, network latency, missing validations
+- **Test levels:** sanity first, then targeted regression
+- **Environments:** desktop web and mobile web views
+- **Entry criteria:** stable build, defined user stories, basic data ready
+- **Exit criteria:** sanity pass, no open critical defects, known issues documented
+
+---
+
+## 🧪 STD - Test Design (samples)
+| ID  | Area              | Title                               | Type        |
+|-----|-------------------|-------------------------------------|-------------|
+| TC01| Auth              | Login with valid user               | Sanity      |
+| TC02| Auth              | Login with invalid password         | Negative    |
+| TC03| Search            | Search by keyword and open result   | Sanity      |
+| TC04| Navigation        | Header links respond and track      | Regression  |
+
+> The full STD is included inside the STR report and the live page.
+
+---
+
+## 📊 STR - Test Summary
+- **Sanity:** passed with minor UI observations
+- **Regression:** selected flows passed
+- **Defects filed:** see Issues tab for labeled items
+- **Recommendations:** enforce input validation, unify error messages, add empty state hints
+
+---
+
+## 🐞 Defect Reporting
+Issues follow a standard template: environment, steps to reproduce, expected vs actual, evidence, scope.  
+Open a new bug: **Issues → New issue → Bug report**.
+
+---
+
+## 🔍 Test Execution Notes
+- Verified on common resolutions for desktop and mobile views
+- Checked orientation change - portrait and landscape
+- No console errors on critical pages during sanity run
+
+---
+
+## 🔗 Quick Links
+- Live project: https://lahavmauda.github.io/alltrails-final-project/  
+- Full STR PDF: [AllTrails QA Final Project – Manual Testing](AllTrails%20QA%20Final%20Project%20%E2%80%93%20Manual%20Testing.pdf)  
+- Issue template: [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md)  
+- PR template: [pull_request_template.md](pull_request_template.md)
+
+---
+
+## 📚 Tech and Tools
+- Test docs: STP, STD, STR
+- Tracking: spreadsheets and structured tables
+- Version control: Git and GitHub
+- Communication style: clear, factual, user focused
+
+---
+
+## 🧩 Notes
+- This repository is manual testing focused.  
+- Automation learning path is separate and uses Python and Playwright.
+
+---
+
+## 🏁 Footer
+Built by **Lahav Mauda** - Manual QA transitioning to Automation  
+Currently studying at **Automation College Tel Aviv** with **Gal Matalon**.
