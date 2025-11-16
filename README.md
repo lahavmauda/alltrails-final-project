@@ -128,8 +128,40 @@ Open a new bug: **Issues → New issue → Bug report**.
 - This repository is manual testing focused.  
 - Automation learning path is separate and uses Python and Playwright.
 
+---
+
+## 🐞 Bug Evidence
+
+Below are selected **real functional issues** discovered during testing.
+These findings show the tester’s analytical ability and real QA mindset.
+
+| Screenshot | Description | Result |
+|-------------|--------------|---------|
+| ![Invalid characters](./screenshots/No_error_message_for_invalid_characters.png) | No error message for invalid characters in First and Last Name fields | ❌ Bug |
+| ![Jerusalem French](./screenshots/Searching%20Ramot%20Menashe%20without%20Internet.png) | Incorrect result when typing Jerusalem in French | ⚠️ Defect |
+| ![Jerusalem Italian](./screenshots/store_location_not_prominent_Italian.png) | Incorrect result when typing Jerusalem in Italian | ⚠️ Defect |
+| ![Store location](./screenshots/The%20store's%20location%20is%20not%20prominent.png) | The store’s location is not prominent on the map | ❌ Bug |
+| ![Camping and Skiing](./screenshots/No%20results%20when%20selecting%20Camping%20and%20Skiing.png) | Missing results when selecting “Camping and Skiing” | ❌ Bug |
 
 ---
-## 🏁 Footer
-Built by **Lahav Mauda** - Manual QA transitioning to Automation  
-Currently studying at **Automation College Tel Aviv** with **Gal Matalon**.
+
+## 💡 UX & Usability Findings
+
+Below are **non-functional issues** found during exploratory testing,  
+focused on user experience and accessibility aspects.
+
+| Screenshot | Description | Type |
+|-------------|--------------|------|
+| ![Social](./screenshots/No%20Sharing%20on%20Social%20Media.png) | No sharing option for social media | 💡 UX Suggestion |
+| ![Offline](./screenshots/No%20results%20without%20internet.png) | App behavior while offline (no informative message) | ⚠️ Needs improvement |
+
+---
+
+> 🧠 These screenshots reflect **real manual testing** findings and support issues documented in the STR report.
+
+---
+
+## 🧩 Footer
+
+Built by Lahav Mauda – Manual QA transitioning to Automation  
+Currently studying at Automation College Tel Aviv with Gal Matalon.
