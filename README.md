@@ -1,10 +1,38 @@
-# alltrails-final-project
-The AllTrails Web QA Final Project demonstrates a comprehensive end-to-end manual testing process, showcasing my ability to design, execute, and document large-scale QA efforts with precision and professional rigor.
-Over the course of this project, I created and executed more than 250 structured test cases across critical domains including Sanity, Functional, Negative, GUI, Usability, Compatibility, Accessibility, Security, and Performance testing.
-I leveraged TestRail for detailed tracking of metrics such as execution rates, pass/fail status, and bug severity distribution.
-Using Jira integration, I reported and analyzed defects, prioritizing them by Critical, High, Medium, and Low severity, ensuring clear visibility into system stability and user experience impact.
-Through this project, I gained practical experience in test planning, requirement analysis, regression cycles, bug life cycle management, and risk-based prioritization.
-I applied industry-standard QA terminology and best practices, demonstrating not only technical proficiency but also an analytical mindset, strong attention to detail, and the ability to think from both the end-user perspective and the business value perspective.
-This project highlights my newly acquired capabilities in quality metrics reporting, usability analysis, accessibility validation, and internationalization testing. It reflects my ability to simulate real-world conditions (slow internet, offline caching, cross-browser checks, legacy OS/browser compatibility, and multi-language validation) while ensuring comprehensive coverage and traceability.
-Overall, the project emphasizes my ability to deliver clear documentation, actionable recommendations, and structured QA artifacts that provide immediate value to stakeholders.
-It shows I can manage complex testing efforts independently, ensuring software quality, user satisfaction, and business reliability.
+# AllTrails QA Final Project – Manual Testing
+
+## 🧠 Overview
+This project demonstrates my practical approach to manual QA testing on a live web application.  
+It covers test planning, test case design, execution, bug reporting, and final summary documentation.  
+The goal was to validate user flows and ensure that the site works smoothly across different browsers.
+
+## 🎯 Objectives
+- Plan and structure test coverage for key AllTrails features  
+- Write detailed and reproducible test cases (STD)  
+- Execute sanity and regression testing  
+- Report defects with clear expected vs actual results and screenshots  
+- Deliver a final STR report summarizing findings and recommendations
+
+## 🧰 Tools and Methods
+- Documentation: Google Sheets (STP, STD, STR)  
+- Version control: GitHub  
+- Testing platforms: Web (desktop + mobile views)  
+- Communication mindset: clear, factual, and user-focused
+
+## 📂 Project Structure
+
+
+
+## 🧾 Example Test Case
+| ID | Step | Expected Result | Status |
+|----|------|-----------------|--------|
+| TC01 | Navigate to login page | Page loads successfully | ✅ |
+| TC02 | Enter valid credentials | Redirect to user dashboard | ✅ |
+| TC03 | Enter invalid password | Error message displayed | 🟡 |
+
+## 💡 Lessons Learned
+- Always verify the flow end-to-end, not just single actions  
+- Detailed documentation saves time for everyone on the team  
+- QA adds value when it helps the product team see things from a user’s view  
+
+## 🌐 Live Project
+[View AllTrails Project](https://lahavmauda.github.io/alltrails-final-project/)
