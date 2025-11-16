@@ -183,8 +183,24 @@ This testing cycle reflects strong coverage of **functional**, **usability**, an
 It highlights improvement opportunities for user experience consistency and communication clarity.  
 Further regression testing is recommended after fixes are implemented.
 ---
+---
 
-## 🧩 Footer
+## 📈 QA Test Summary
 
+Visual summary of the manual test execution results.  
+Reflects the ratio between successful, defective, and UX-related cases during the AllTrails QA process.
+
+<p align="center">
+  <img src="./screenshots/QA_Overview.png" alt="QA Summary Chart" width="600"/>
+</p>
+
+**Interpretation:**
+- ✅ 69% of test cases passed successfully  
+- ❌ 19% identified as functional bugs  
+- 💡 12% noted as UX improvements or usability findings
+
+---
+
+### 🧠 Footer
 Built by Lahav Mauda – Manual QA transitioning to Automation  
 Currently studying at Automation College Tel Aviv with Gal Matalon.
