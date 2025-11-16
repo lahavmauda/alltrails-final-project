@@ -1,4 +1,9 @@
 # AllTrails QA Final Project – Manual Testing
+![QA](https://img.shields.io/badge/QA-Manual-blue)
+![Testing](https://img.shields.io/badge/Testing-Web-green)
+![Docs](https://img.shields.io/badge/Documents-STP%2FSTD%2FSTR-orange)
+![Python](https://img.shields.io/badge/Learning-Python-yellow)
+![Playwright](https://img.shields.io/badge/Learning-Playwright-lightgrey)
 
 ## 🧠 Overview
 This project demonstrates my practical approach to manual QA testing on a live web application.  
