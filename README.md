@@ -2,6 +2,28 @@
 **Quick links:**  
 [STP](./docs/STP.md) · [STD](./docs/STD.md) · [STR](./docs/STR.md) · [Screenshots](./screenshots/) · [Live project](https://lahavmauda.github.io/alltrails-final-project/)
 
+## Test coverage overview
+
+**Legend:** ✅ passed · 🟡 in progress · ❌ open · 🔁 to regress · 🧪 exploratory
+
+| Area          | Scenarios covered                                   | Status | Notes |
+|---------------|------------------------------------------------------|--------|-------|
+| Login         | valid, invalid, empty, edge length, lockout timer    | ✅     | edge cases verified with screenshots |
+| Search        | keyword, filters, empty query, no results            | ✅     | verified on desktop and mobile |
+| Navigation    | header, footer, category links, back-forward flows   | ✅     | cross page linking checked |
+| Account       | profile view, edit profile, validation messages      | 🟡    | edit form validations in progress |
+| Error states  | 404 page, network fail simulation                    | 🧪    | exploratory notes in STR |
+
+**Traceability:**
+- Design → [STD](./docs/STD.md)
+- Plan → [STP](./docs/STP.md)
+- Execution and defects → [STR](./docs/STR.md) and [Issues](../../issues?q=is%3Aissue+label%3Abug)
+
+**Next planned checks:**
+- 🔁 mini regression after Account fixes
+- 🧪 exploratory on slow networks and small viewports
+
+
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 ![Process](https://img.shields.io/badge/QA%20Process-Ready-blue?style=flat-square)
 ![Manual](https://img.shields.io/badge/Manual-Verified-green?style=flat-square)
