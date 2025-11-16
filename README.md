@@ -161,6 +161,29 @@ focused on user experience and accessibility aspects.
 
 ---
 
+## 🧠 QA Insights & Recommendations
+
+### 🔍 Key Findings
+- Multiple **functional issues** found in multilingual search and input validation.  
+- **Offline handling** and **social sharing** lack proper user feedback.  
+- **Map visibility** can be improved to highlight important locations.  
+- UI/UX inconsistencies detected between desktop and mobile views.
+
+### 🧭 Recommendations
+| Priority | Area | Recommendation | Type |
+|-----------|------|----------------|------|
+| 🔴 High | Input Validation | Add proper error handling for invalid name characters | Functional |
+| 🟠 Medium | Search Logic | Standardize language-based results (e.g., Italian, French) | Functional |
+| 🟡 Medium | Map Visibility | Make store or location markers more noticeable | UI |
+| 🟢 Low | Offline Mode | Display clear “No Internet” feedback message | UX |
+| 🟢 Low | Social Sharing | Integrate share options for user content | UX |
+
+### 💬 Summary
+This testing cycle reflects strong coverage of **functional**, **usability**, and **exploratory** testing.  
+It highlights improvement opportunities for user experience consistency and communication clarity.  
+Further regression testing is recommended after fixes are implemented.
+---
+
 ## 🧩 Footer
 
 Built by Lahav Mauda – Manual QA transitioning to Automation  
