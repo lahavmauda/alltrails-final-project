@@ -130,11 +130,6 @@ Open a new bug: **Issues → New issue → Bug report**.
 
 
 ---
-
-> All screenshots were taken during **manual regression and exploratory testing** phases.  
-> Evidence supports issues documented in the STR report.
-
----
 ## 🏁 Footer
 Built by **Lahav Mauda** - Manual QA transitioning to Automation  
 Currently studying at **Automation College Tel Aviv** with **Gal Matalon**.
