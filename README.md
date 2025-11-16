@@ -1,4 +1,12 @@
 # AllTrails QA Final Project - Manual Testing
+![QA Status](https://img.shields.io/badge/QA%20Process-Ready-brightgreen?style=flat-square)
+![Testing Type](https://img.shields.io/badge/Testing-Manual-blue?style=flat-square)
+![Browser](https://img.shields.io/badge/Cross--Browser-Validated-lightgrey?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Web-orange?style=flat-square)
+![Documentation](https://img.shields.io/badge/Docs-STP%20|%20STD%20|%20STR-yellow?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-lightgreen?style=flat-square)
+
+
 **Quick links:**  
 [STP](./docs/STP.md) · [STD](./docs/STD.md) · [STR](./docs/STR.md) · [Screenshots](./screenshots/) · [Live project](https://lahavmauda.github.io/alltrails-final-project/)
 
