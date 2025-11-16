@@ -128,21 +128,6 @@ Open a new bug: **Issues → New issue → Bug report**.
 - This repository is manual testing focused.  
 - Automation learning path is separate and uses Python and Playwright.
 
----
-
-## 📸 Test Evidence
-
-Below are selected screenshots from the QA validation process  
-showing both **successful flows** and **identified defects** during testing.
-
-| Screenshot | Description | Result |
-|-------------|--------------|---------|
-| ![Front page](./screenshots/front_page_image.png) | Home page displayed correctly | ✅ Pass |
-| ![Invalid Name Field](./screenshots/invalid_name_field.png) | No error message for invalid characters in First and Last Name fields | ❌ Bug |
-| ![Incorrect Result Italian](./screenshots/incorrect_result_italian.png) | Incorrect result when searching in Italian | ⚠️ Defect |
-| ![No results Camping](./screenshots/no_results_camping_skiing.png) | Missing results when selecting “Camping and Skiing” | ❌ Bug |
-| ![Offline](./screenshots/no_results_without_internet.png) | App behavior while offline | ⚠️ Needs improvement |
-| ![Social](./screenshots/no_sharing_social_media.png) | No sharing option for social media | 💡 UX Suggestion |
 
 ---
 
